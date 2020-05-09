@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ACounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ErrLoc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flash_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nfcm_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nfcm_tb
