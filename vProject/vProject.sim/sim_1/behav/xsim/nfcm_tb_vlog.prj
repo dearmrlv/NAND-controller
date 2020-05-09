@@ -1,13 +1,13 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v" \
-"../../../../vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v" \
+"../../../../../ACounter.v" \
+"../../../../../ErrLoc.v" \
+"../../../../../H_gen.v" \
+"../../../../../MFSM.v" \
+"../../../../../TFSM.v" \
+"../../../../../flash_interface.v" \
+"../../../../../nfcm_top.v" \
+"../../../../../nfcm_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

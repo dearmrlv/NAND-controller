@@ -54,46 +54,46 @@
 // --------------------------------------------------------------------
 `timescale 1 ns / 1 fs
 module MFSM(
-  CLK,
-  RES,
+  CLK,  // clock
+  RES,  // reset
   start,
   command,
   setDone,
-  R_nB,
-  BF_sel,
+  R_nB, // flash signal: Ready not Busy, high->flash ready; low->flash busy
+  BF_sel,   // FIFO enable
 //  TBF,
 //  RBF,//  -- tx & rx buffer rd flags
 //  ResTBF,
 //  SetRBF,
   mBF_sel,
-  BF_we,
+  BF_we,    // FIFO write
   io_0,
   t_start,
   t_cmd,
   t_done,
-  WrECC,
-  EnEcc,
+  WrECC,    // Write to ECC
+  EnEcc,    // Enable ECC
 //  ecc2flash,
 //  byteSelCntEn,
 //  byteSelCntRes,
   AMX_sel,
   cmd_reg,
   cmd_reg_we,
-  RAR_we,
+  RAR_we,   // when high, strobe the row address from the host, Row AddRess write enable
 //  ADS,
   set835,
   cnt_res,
   tc8,
   tc4,// -- term counts fm Wait counter
-  wCntRes,
-  wCntCE,//  -- wait conter ctrl
-  SetPrErr,
-  SetErErr,
+  wCntRes,  // wait Counter Reset
+  wCntCE,// wait Counter Ctrl
+  SetPrErr, // Set Program operation Error
+  SetErErr, // Set Erase operation Error
 //  SetBFerr,
   ADC_sel// -- ad/dat/cmd mux ctrl
 )/*synthesis ugroup="mfsm_group" */;  
- input CLK;
- input RES;    
+ input CLK; // clock
+ input RES; // reset  
  input start;
  input [2:0] command;  
  input R_nB;         
@@ -110,9 +110,9 @@ module MFSM(
 // output reg SetRBF;
  output mBF_sel;
  output reg BF_we;       
- output reg t_start;      
+ output reg t_start;    // to TFSM  
  output reg [2:0] t_cmd;
- output reg WrECC;
+ output reg WrECC;  // to ECC
  output reg EnEcc;
 // output reg ecc2flash; 
 // output reg byteSelCntEn;
@@ -131,6 +131,15 @@ module MFSM(
 // output reg SetBFerr;
  output reg [1:0] ADC_sel;// -- a
  
+// names of different states
+// name rules:
+// S: Erase, Sr: Read, Sw: Write, Srst: Reset, Srid: Read ID
+// ADS
+// RAR: Row AddRess
+// CmdL: Command Latch
+// WC
+// AdL: Address Latch
+// DR: Data Register
  parameter Init=0,S_ADS=1, S_RAR=2, 
 S_CmdL0=3,S_CmdL1=4,S_adL0=5,S_adL1=6, S_CmdL2=7, S_CmdL3=8,//-- EBL
 S_WC0=9, S_WC1=10, S_wait=11, S_CmdL4=12, S_CmdL5=13, S_WC3=14, S_WC4=15, S_DR1=16, S_Done=17,
@@ -147,9 +156,10 @@ Srid_RAR=72, Srid_CmdL0=73, Srid_CmdL1=74, Srid_AdL0=75,
 Srid_Wait=76, Srid_DR1=78, Srid_DR2=79, Srid_DR3=80, Srid_DR4=81, Srid_done=82;
 
 
-reg [7:0] NxST,CrST;
+reg [7:0] NxST,CrST;    // Next STate, Current STate
 reg BF_sel_int;
 
+// parts of commands 
 parameter C0=4'b0000,
           C1=4'b0001,
           C3=4'b0011,
@@ -254,7 +264,7 @@ end else begin           // default values
       end
     end
     S_RAR:begin //          --EBL
-      RAR_we <= 1;//--strobe the row address from the host
+      RAR_we <= 1;// strobe the row address from the host, Row AddRess write enable
       NxST <= S_CmdL0;
     end
     S_CmdL0:begin

@@ -83,8 +83,8 @@ reg[7:0] memory[0:2047];
 
 reg [7:0] temp;
   
-GSR GSR_INST(.GSR(1'b1));
-PUR PUR_INST(.PUR(1'b1));  
+//GSR GSR_INST(.GSR(1'b1));
+//PUR PUR_INST(.PUR(1'b1));  
 
 //pullup (DIO[0]);
 //pullup (DIO[1]);

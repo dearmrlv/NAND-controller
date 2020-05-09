@@ -7,23 +7,3 @@ Time resolution is 1 fs
                 1848ns : read status command
                 2136  nfcm_tb.erase_cycle  	 	  << erase no error >>
                 2488ns : write page setup command
-              166920ns : write page row address:1234
-              166920ns : random data write command
-              168248ns : random write page column address:0835
-              168248ns : write page command
-              168664ns : read status command
-              168875  nfcm_tb.write_cycle  	 	  << Writing no error >>
-              169224ns : read page setup command
-              169832ns : read page row address:1234,column address:0000
-              169832ns : read page command
-              334104ns : random read page setup command
-              334488ns : random read page column address:0835
-              334488ns : random read page command
-              368440  nfcm_tb.read_cycle  	 	  << ecc no error >>
-              368792ns:  read ID function 
-              369016ns : id code:XX
-              369128ns : id code:ec
-              369240ns : id code:a1
-              369352ns : id code:00
-              369448  nfcm_tb.read_id_cycle  	 	  << read id function over >>
-$stop called at time : 370608 ns : File "D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v" Line 147

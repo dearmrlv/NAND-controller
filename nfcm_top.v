@@ -189,22 +189,22 @@ assign Flash_BF_we = DIS & F_we;
 assign Ecc_en = enEcc & ecc_en_tfsm;
 
 
-ebr_buffer buff( 
-          .DataInA(BF_din),
-          .QA(QA_1),
-          .AddressA(BF_ad),
-          .ClockA(CLK),
-          .ClockEnA(BF_sel),
-          .WrA(BF_we),
-          .ResetA(LO),
-          .DataInB(FlashDataIn),
-          .QB(QB_1),
-          .AddressB(CntOut[10:0]),
-          .ClockB(CLK),
-          .ClockEnB(Flash_BF_sel),
-          .WrB(Flash_BF_we),
-          .ResetB(LO)
-);
+//ebr_buffer buff( 
+//          .DataInA(BF_din),
+//          .QA(QA_1),
+//          .AddressA(BF_ad),
+//          .ClockA(CLK),
+//          .ClockEnA(BF_sel),
+//          .WrA(BF_we),
+//          .ResetA(LO),
+//          .DataInB(FlashDataIn),
+//          .QB(QB_1),
+//          .AddressB(CntOut[10:0]),
+//          .ClockB(CLK),
+//          .ClockEnB(Flash_BF_sel),
+//          .WrB(Flash_BF_we),
+//          .ResetB(LO)
+//);
 
 ACounter addr_counter (
           .clk(CLK),

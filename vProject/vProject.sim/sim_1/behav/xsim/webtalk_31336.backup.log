@@ -2,8 +2,8 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri May  8 21:31:46 2020
-# Process ID: 16548
+# Start of session at: Sat May  9 17:39:57 2020
+# Process ID: 31336
 # Current directory: D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.sim/sim_1/behav/xsim/xsim.dir/nfcm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.sim/sim_1/behav/xsim/webtalk.log
@@ -11,4 +11,4 @@
 #-----------------------------------------------------------
 source D:/In -notrace
 couldn't read file "D:/In": permission denied
-INFO: [Common 17-206] Exiting Webtalk at Fri May  8 21:31:46 2020...
+INFO: [Common 17-206] Exiting Webtalk at Sat May  9 17:39:57 2020...

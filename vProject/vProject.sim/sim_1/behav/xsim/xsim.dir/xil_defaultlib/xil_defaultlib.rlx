@@ -2,12 +2,12 @@
 2019.1
 May 24 2019
 15:06:07
+D:/In USTC/ICprojects/project_based_on_Lattice/ACounter.v,1418623866,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/ErrLoc.v,,ACounter,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/ErrLoc.v,1418623868,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/H_gen.v,,ErrLoc,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/H_gen.v,1418623868,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/MFSM.v,,H_gen,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/MFSM.v,1589014309,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/TFSM.v,,MFSM,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/TFSM.v,1418623872,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/flash_interface.v,,TFSM,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/flash_interface.v,1418623920,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/nfcm_top.v,,flash_interface,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/nfcm_tb.v,1588686384,verilog,,,,nfcm_tb,,,,,,,,
+D:/In USTC/ICprojects/project_based_on_Lattice/nfcm_top.v,1588686327,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/nfcm_tb.v,,nfcm_top,,,,,,,,
 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v,1418623866,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v,,ACounter,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v,1418623868,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v,,ErrLoc,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v,1418623868,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v,,H_gen,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v,1588944683,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v,,MFSM,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v,1418623872,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v,,TFSM,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v,1418623920,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v,,flash_interface,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v,1588686384,verilog,,,,nfcm_tb,,,,,,,,
-D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v,1588686327,verilog,,D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v,,nfcm_top,,,,,,,,

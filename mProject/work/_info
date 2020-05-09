@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/In USTC/ICprojects/project_based_on_Lattice/mProject
+T_opt
+!s110 1589016578
+V4c^2S261IiE^^^J@6Zo4;3
+04 7 4 work nfcm_tb fast 0
+=1-48ba4e4d1dc6-5eb67801-302-6cac
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vACounter
+Z2 !s110 1589016571
+!i10b 1
+!s100 W2;zPmDaHaS_K54Gj<^LF0
+I`XH60FdT6jkH6f`Jh<oGZ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1418623866
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v
+Z4 L0 56
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1589016571.000000
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ACounter.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@counter
+vErrLoc
+R2
+!i10b 1
+!s100 gzagTCTo5iE;Bl>4eQXXW1
+Ia=1GQcF?nmXTG1M_8FK0W3
+R3
+R0
+Z8 w1418623868
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/ErrLoc.v|
+!i113 0
+R7
+R1
+n@err@loc
+vflash_interface
+R2
+!i10b 1
+!s100 dA9Ri?kGOibDz9J6Jf>E61
+IjLj9VQ<oa6zEbalb9f5eT1
+R3
+R0
+w1418623920
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v
+L0 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/flash_interface.v|
+!i113 0
+R7
+R1
+vH_gen
+R2
+!i10b 1
+!s100 UG7H9PjT3GVmSJ`Q9<6mo3
+I4ZjY@hbWF0OWf_7Rdb=zI0
+R3
+R0
+R8
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/H_gen.v|
+!i113 0
+R7
+R1
+n@h_gen
+vMFSM
+R2
+!i10b 1
+!s100 cC3`z_TmS@n]2NLdHC88V1
+I70Qge`_bI0P_ocn=A`DIA2
+R3
+R0
+w1589014309
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/MFSM.v|
+!i113 0
+R7
+R1
+n@m@f@s@m
+vnfcm_tb
+R2
+!i10b 1
+!s100 BW6PI1k[j2g2i`P^ni<2I2
+ITjJANf7Z8Z1OfO[ahBkPj0
+R3
+R0
+w1588686384
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v
+L0 53
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_tb.v|
+!i113 0
+R7
+R1
+vnfcm_top
+Z9 !s110 1589016572
+!i10b 1
+!s100 LPS7Di_B0Fc5EBi9KJ73>1
+I7mCb<L3^2l_o=BQQ]jn=N2
+R3
+R0
+w1588686327
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v
+L0 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/nfcm_top.v|
+!i113 0
+R7
+R1
+vTFSM
+R9
+!i10b 1
+!s100 d_TJjE@0D05TQP8b=lJaL1
+I]9c_7^m0OT6UD8TRm8Y?U1
+R3
+R0
+w1418623872
+8D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v
+FD:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1589016572.000000
+!s107 D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/In USTC/ICprojects/project_based_on_Lattice/vProject/vProject.srcs/sources_1/imports/project_based_on_Lattice/TFSM.v|
+!i113 0
+R7
+R1
+n@t@f@s@m
